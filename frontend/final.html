@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Health Checker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f8fafc] text-slate-800 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+    <div class="font-extrabold text-2xl text-emerald-600">
+      🛡️ Website Health <span class="text-slate-800">Checker</span>
+    </div>
+    <button class="bg-emerald-500 text-white px-6 py-2.5 rounded-xl font-bold shadow-lg shadow-emerald-500/20">
+      Check Now
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-7xl mx-auto px-6 py-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      
+      <div class="lg:col-span-6 space-y-6">
+        <span class="inline-block text-xs font-bold px-4 py-2 rounded-full bg-emerald-100 text-emerald-700">
+          ⚡ 100% Free • No Sign Up Required
+        </span>
+
+        <h1 class="text-5xl font-black tracking-tight text-slate-900 leading-tight">
+          Website Health <br />
+          <span class="text-emerald-500">Checker</span>
+        </h1>
+
+        <p class="text-slate-500 text-lg font-medium">
+          Check your website's health and performance in seconds. Get detailed reports and improve your website today.
+        </p>
+
+        <div class="bg-white p-2.5 rounded-2xl shadow-xl border border-slate-100 flex flex-col sm:flex-row gap-3">
+          <input 
+            type="url" 
+            placeholder="Enter your website URL" 
+            class="w-full bg-transparent outline-none px-4 py-3 text-slate-800 font-medium"
+          />
+          <button class="bg-emerald-500 text-white font-bold px-8 py-3.5 rounded-xl shadow-md whitespace-nowrap">
+            Check Health
+          </button>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 bg-white p-8 rounded-3xl border border-slate-100 shadow-2xl">
+        <h3 class="font-bold text-slate-800 text-lg mb-6">Website Health</h3>
+        
+        <div class="flex flex-col sm:flex-row gap-8 items-center">
+          <div class="w-36 h-36 flex items-center justify-center border-[10px] border-emerald-500 rounded-full text-center shrink-0">
+            <div>
+              <span class="text-4xl font-black text-slate-800">95</span>
+              <p class="text-xs font-bold text-slate-400">Out of 100</p>
+            </div>
+          </div>
+
+          <div class="w-full space-y-3 font-bold text-sm">
+            <div class="flex justify-between border-b pb-2"><span>Performance</span><span class="text-slate-500">95/100</span></div>
+            <div class="flex justify-between border-b pb-2"><span>SEO</span><span class="text-slate-500">90/100</span></div>
+            <div class="flex justify-between border-b pb-2"><span>Security</span><span class="text-slate-500">100/100</span></div>
+            <div class="flex justify-between border-b pb-2"><span>Accessibility</span><span class="text-slate-500">92/100</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
